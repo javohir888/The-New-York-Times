@@ -84,3 +84,51 @@ figure {
 .rick {
     color: rgb(112, 111, 111);
 }
+
+.centr {
+    width: 50%;
+    margin: 40px auto 0 auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin:25px 0 35px 0;
+}
+
+.facebook i {
+    margin-left: 20px;
+}
+
+.facebook i:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.par {
+    width: 95%;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.unlock {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.unlock p {
+    margin: 0;
+    padding: 0;
+}
+
+.unlock p a {
+    color: #326791;
+    text-decoration: none;
+}
+
+.hr1 {
+    width: 90px;
+}
