@@ -69,6 +69,7 @@ body {
     font-size: 47px;
     width: 60%;
     margin: 30px auto;
+    font-style: italic;
 }
 
 .bang img {
@@ -86,8 +87,14 @@ figure {
 }
 
 .centr {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0  0 0 30%;
+}
+
+.left {
     width: 50%;
-    margin: 40px auto 0 auto;
 }
 
 .icons {
@@ -132,3 +139,178 @@ figure {
 .hr1 {
     width: 90px;
 }
+
+.right {
+    width: 30%;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+}
+
+.img1 img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.img1 p a {
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.4;
+    text-decoration: none ;
+}
+
+.ofh3 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.theory {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.univer {
+    width: 25%;
+    padding: 10px;
+}
+
+.univer img {
+    width: 200px;
+    height: 140px;
+}
+
+.univer p span {
+    font-weight: bold;
+}
+
+.larry {
+    margin-left: 10%;
+}
+
+.kovac {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.kovac p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.8;
+}
+
+.vid1 {
+    width: 100%;
+    height: 400px;
+}
+
+.img-space {
+    width: 100%;
+    height: 400px;
+}
+
+.fig-vid {
+    font-size: 17px;
+}
+
+.fig-vid span {
+    color: rgb(153, 152, 152);
+}
+
+#last-p {
+    font-size: 13px;
+}
+
+#last-p a {
+    color: #333;
+}
+
+#last-p a:hover {
+    text-decoration: none;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: #567B95;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+
+.btn1:hover {
+    cursor: pointer;
+}
+
+.icon-new i {
+    margin-left: 20px;
+}
+
+.icon-new i:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.more-most {
+    display: flex;
+    margin-top: 20px;
+}
+
+.more {
+    width: 70%;
+    padding: 10px;
+}
+
+.canberra {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.more-hr1 {
+    font-weight: bold;
+}
+
+.when {
+    width: 32.5%;
+}
+
+.when img {
+    width: 100%;
+}
+
+.fig-when {
+    font-size: 12px;
+    margin: 0;
+}
+
+.p1 {
+    font-size: 20   px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.p2 {
+    font-size: 14px;
+}
+
+.most {
+    width: 30%;
+    padding: 10px;
+}
+
+.most p {
+    font-size: 20px;
+    columns: #333;
+}
+
