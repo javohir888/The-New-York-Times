@@ -314,3 +314,60 @@ figure {
     columns: #333;
 }
 
+.news {
+    margin-top: 30px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page p a {
+    font-size: 13px;
+    color: #333;
+}
+
+.world {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    font-family: sans-serif;
+}
+
+.good {
+    width: 16.5%;
+}
+
+.good h4 {
+    color: #333;
+    margin-left: 40px;
+}
+
+.good ul li {
+    font-size: 16px;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+.good ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    position: sticky;
+    bottom: 0;
+}
